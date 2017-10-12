@@ -35,11 +35,11 @@ module.exports = {
   },
   plugins: [
 		new HtmlWebpackPlugin({
-			production: true,
+			production: false,
 			template: "./index-template.html"
 		}),
 		new GlobalizePlugin({
-			production: true,
+			production: false,
 			developmentLocale: "en",
 			supportedLocales: [ "ar", "de", "en", "es", "pt", "ru", "zh" ],
 			messages: "messages/[locale].json",

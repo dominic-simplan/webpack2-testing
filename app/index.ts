@@ -1,7 +1,6 @@
-//var Globalize = require( "globalize" );
-import Globalize from "globalize";
+import 'Globalize';
 
-function component () {
+export function component () {
   let element = document.createElement('div');
   
   let currencyFormatter = Globalize.currencyFormatter( "USD" );
